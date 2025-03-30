@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Lista de Personagens</title>
+</head>
+<body>
+    <h1>Lista de Personagens</h1>
+    <ul>
+        {% for personagem in personagens %}
+        <li>{{ personagem.nome }} - Nível: {{ personagem.nivel }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

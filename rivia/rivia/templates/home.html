@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site Django</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao Meu Site!</h1>
+        <nav>
+            <ul>
+                <li><a href="{% url 'lista_personagens' %}">Personagens</a></li>
+                <li><a href="{% url 'inserir_personagem' %}">Adicionar Personagem</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Sobre o Site</h2>
+        <p>Este é um projeto Django simples onde você pode adicionar e visualizar personagens.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Meu Site Django</p>
+    </footer>
+</body>
+</html>
