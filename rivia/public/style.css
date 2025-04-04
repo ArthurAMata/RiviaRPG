@@ -1,0 +1,53 @@
+body {
+  background-image: url('images/background-medieval1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: rgb(255, 255, 255);
+}
+
+.titulo {
+  margin-top: 20px;
+  font-size: 2rem;
+}
+
+.form-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.5); 
+  border-radius: 10px;
+}
+
+.seta-esquerda, .seta-direita {
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  color: rgb(0, 0, 0);
+  font-size: 1.2rem;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+
+.sprite-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#spritePersonagem {
+  width: 200px;  
+  height: 200px;
+  object-fit: contain;
+  background-color: rgba(255, 255, 255, 0.1); 
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.titulo {
+  color: #000000; 
+  font-size: 2rem;
+  font-weight: bold; 
+  text-shadow: 1px 1px 2px rgb(0, 0, 0); 
+}
